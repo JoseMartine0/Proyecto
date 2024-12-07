@@ -1,0 +1,101 @@
+/* Reset básico */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+    line-height: 1.6;
+}
+
+header {
+    background: #d32f2f; /* Rojo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 15px;
+    text-align: center;
+}
+
+main {
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.form-section, .table-section {
+    margin-bottom: 20px;
+    background: #fff; /* Fondo blanco */
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #000; /* Borde negro */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #d32f2f; /* Texto rojo */
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #000; /* Borde negro */
+    border-radius: 4px;
+}
+
+input:focus, select:focus {
+    border-color: #fbc02d; /* Amarillo */
+    outline: none;
+}
+
+button {
+    background: #d32f2f; /* Fondo rojo */
+    color: #fff; /* Texto blanco */
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #b71c1c; /* Rojo más oscuro */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #000; /* Borde negro */
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background: #fbc02d; /* Fondo amarillo */
+    color: #000; /* Texto negro */
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9; /* Alternar filas con gris claro */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
